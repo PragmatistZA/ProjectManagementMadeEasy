@@ -1,0 +1,56 @@
+﻿@using ProjectManagementMadeEasyApp.Models
+@model IEnumerable<TaskModel>
+
+@{
+    ViewBag.Title = "MyTasksView";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2>Tasks:</h2>
+
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+
+        @foreach (TaskModel task in Model)
+        {
+            <dt>
+                <p>Task Description:</p>
+            </dt>
+
+            <dd>
+                <p>@task.Task_Desc</p>
+            </dd>
+
+            <dt>
+                <p>Hours Required:</p>
+            </dt>
+
+            <dd>
+                <p>@task.Time_Req</p>
+            </dd>
+
+            <dt>
+                <p>Date Created:</p>
+            </dt>
+
+            <dd>
+                <p>@task.Task_Created.ToString("dd-MM-yyyy")</p>
+            </dd>
+
+            <dt>
+                <p>Date Due By:</p>
+            </dt>
+
+            <dd>
+                <p>@task.Task_Due.ToString("dd-MM-yyyy")</p>
+                <a href="@Url.Action("RemoveTask", "Dashboard", task)" class="btn btn-default btn-sm btn-block" style="width: 10%">Delete&raquo;</a>
+            </dd>
+        }
+
+    </dl>
+    <a href="@Url.Action("AddTask", "Dashboard")" class="btn btn-default btn-large btn-block" style="width: 25%" >Add New Task&raquo;</a>
+</div>
+

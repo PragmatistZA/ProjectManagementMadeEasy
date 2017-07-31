@@ -1,0 +1,108 @@
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\obj\Debug\ProjectManagementMadeEasyApp.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\csc.exe
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\csc.exe.config
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\csc.rsp
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\csi.exe
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\csi.rsp
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\System.AppContext.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\vbc.exe
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\vbc.exe.config
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\vbc.rsp
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\VBCSCompiler.exe
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\ProjectManagementMadeEasyApp.dll.config
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\ProjectManagementMadeEasyApp.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\ProjectManagementMadeEasyApp.pdb
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Microsoft.Web.Infrastructure.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Newtonsoft.Json.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Helpers.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Mvc.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Optimization.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Razor.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.WebPages.Deployment.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.WebPages.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.WebPages.Razor.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\WebGrease.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Newtonsoft.Json.xml
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Helpers.xml
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Mvc.xml
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Razor.xml
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.WebPages.xml
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.WebPages.Deployment.xml
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.WebPages.Razor.xml
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\obj\Debug\ProjectManagementMadeEasyApp.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\obj\Debug\ProjectManagementMadeEasyApp.pdb
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Antlr3.Runtime.dll
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Antlr3.Runtime.pdb
+D:\Visual Studio 2015\Repos\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\MySql.Data.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\csc.exe
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\csc.exe.config
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\csc.rsp
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\csi.exe
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\csi.rsp
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\System.AppContext.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\vbc.exe
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\vbc.exe.config
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\vbc.rsp
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\ProjectManagementMadeEasyApp.dll.config
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\ProjectManagementMadeEasyApp.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\ProjectManagementMadeEasyApp.pdb
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\MySql.Data.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Newtonsoft.Json.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Helpers.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Mvc.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Optimization.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Razor.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.WebPages.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\WebGrease.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Antlr3.Runtime.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Newtonsoft.Json.xml
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Helpers.xml
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Mvc.xml
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.Razor.xml
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.WebPages.xml
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\bin\Antlr3.Runtime.pdb
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\obj\Debug\ProjectManagementMadeEasyApp.csprojResolveAssemblyReference.cache
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\obj\Debug\ProjectManagementMadeEasyApp.dll
+C:\Users\ROGLaptop\Desktop\ProjectManagementMadeEasy\ProjectManagementMadeEasyApp\obj\Debug\ProjectManagementMadeEasyApp.pdb

@@ -1,0 +1,32 @@
+﻿@model ProjectManagementMadeEasyApp.Models.TeamModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2>Index</h2>
+
+<div>
+    <h4>TeamViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Team_ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Team_ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Team_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Team_Name)
+        </dd>
+
+    </dl>
+</div>
+

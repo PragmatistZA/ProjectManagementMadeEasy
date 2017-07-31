@@ -1,0 +1,80 @@
+﻿@model ProjectManagementMadeEasyApp.ViewModels.ProfileViewModel
+
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Profile</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4></h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <p>@Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Title, new { htmlAttributes = new { Value = Model.Title, @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p>@Html.LabelFor(model => model.First_Name, htmlAttributes: new { @class = "control-label col-md-2" })</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.First_Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.First_Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p>@Html.LabelFor(model => model.Last_Name, htmlAttributes: new { @class = "control-label col-md-2" })</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Last_Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Last_Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p>@Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p>@Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p>@Html.LabelFor(model => model.Contact, htmlAttributes: new { @class = "control-label col-md-2" })</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Contact, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Contact, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p>@Html.LabelFor(model => model.Job_Desc, htmlAttributes: new { @class = "control-label col-md-2" })</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Job_Desc, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Job_Desc, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}

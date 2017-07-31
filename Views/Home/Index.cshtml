@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div >
+    <h1>Welcome to Project Management Made Easy!</h1>
+    <p class="lead">An online tool designed to make projects much more bearable.</p>
+
+    @*<div class="btn-group-horizontal">
+        <div class="btn-group btn-group-justified">
+            <div class="btn-group">
+                <a href="@Url.Action("Index", "Teams")" class="btn btn-primary btn-large btn-block">Test User List&raquo;</a>
+                <div>
+                    <p>
+                        This is a test. <br />
+                        Another test
+                    </p>
+                </div>
+            </div>
+            <div class="btn-group">
+                <a href="@Url.Action("Test", "Users")" class="btn btn-primary btn-large btn-block">Display User Account Details&raquo;</a>
+                @*<div>
+                    <p>
+                        This is a test. <br />
+                        Another test
+                    </p>
+                </div>
+            </div>
+            <div class="btn-group">
+                <a href="@Url.Action("Index", "Soap")" class="btn btn-primary btn-large btn-block">WebService Test Button&raquo;</a>
+                <div>
+                    <p>
+                        This is a test. <br />
+                        Another test
+                    </p>
+                </div>
+            </div>
+
+        </div>*@
+        @*<div class="btn-group btn-group-justified">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Option 4</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Option 5</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Option 6</button>
+            </div>
+        </div>
+        <div class="btn-group btn-group-justified">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Option 7</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Option 8</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Option 9</button>
+            </div>
+        </div>
+    </div>*@
+</div>
+
+@*<script type="text/javascript">
+    window.onload = function () { 
+        var chart = new CanvasJS.Chart("chartContainer",
+        {
+            title: {
+                text: "Project X's Task Overview"
+            },
+            exportEnabled: true,
+            axisY: {
+                includeZero: false,
+                title: "Days for Expected Completion",
+                interval: 10
+            },
+            axisX: {
+                includeZero: false,
+                interval: 10,
+                title: "Tasks"
+            },
+            data: [
+            {
+                type: "rangeBar",
+                showInLegend: true,
+                yValueFormatString: "# Hours",
+                legendText: "Time to complete task",
+                dataPoints: [   // Y: [Low, High]
+                    { x: 10, y: [100, 150], label: "Task 5" },
+                    { x: 20, y: [40, 100], label: "Task 4" },
+                    { x: 30, y: [30, 40], label: "Task 3" },
+                    { x: 40, y: [10, 40], label: "Task 2" },
+                    { x: 50, y: [1, 10], label: "Task 1" }
+                ]
+            }
+            ]
+        });
+
+    chart.render();
+  }
+</script>*@
+<script src="~/Scripts/canvasjs.js"></script>
+
+
+@*<div id="chartContainer" style="height: 300px; width: 100%;">
+</div>*@
+
+@*<video autoplay loop>
+    <source src="~/Resources/Office%20Background%20Video%20HD.mp4" type="video/mp4" style="position: fixed; top: 0px; left: 0px; width: 200%; height: 200%; z-index: -1;"/>
+</video>-->*@

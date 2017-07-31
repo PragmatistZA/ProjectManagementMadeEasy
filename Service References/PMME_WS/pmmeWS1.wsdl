@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:pmmeWS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:pmmeWS" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:pmmeWS">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getAllUsersRequest" />
+  <wsdl:message name="getAllUsersResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getAllTeamsRequest" />
+  <wsdl:message name="getAllTeamsResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getAllProjectsRequest" />
+  <wsdl:message name="getAllProjectsResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getAllTasksRequest" />
+  <wsdl:message name="getAllTasksResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getDataRequest">
+    <wsdl:part name="category" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getDataResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="loginUserRequest">
+    <wsdl:part name="email" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="loginUserResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="verifyUserLoginRequest">
+    <wsdl:part name="email" type="xsd:string" />
+    <wsdl:part name="user_password" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="verifyUserLoginResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addNewUserRequest">
+    <wsdl:part name="firstname" type="xsd:string" />
+    <wsdl:part name="lastname" type="xsd:string" />
+    <wsdl:part name="email" type="xsd:string" />
+    <wsdl:part name="user_password" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addNewUserResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="editUserRequest">
+    <wsdl:part name="user_id" type="xsd:string" />
+    <wsdl:part name="title" type="xsd:string" />
+    <wsdl:part name="first_name" type="xsd:string" />
+    <wsdl:part name="last_name" type="xsd:string" />
+    <wsdl:part name="job_desc" type="xsd:string" />
+    <wsdl:part name="email" type="xsd:string" />
+    <wsdl:part name="contact" type="xsd:string" />
+    <wsdl:part name="user_password" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="editUserResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="userAddNewTeamRequest">
+    <wsdl:part name="email" type="xsd:string" />
+    <wsdl:part name="team_name" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="userAddNewTeamResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addUserToTeamRequest">
+    <wsdl:part name="email" type="xsd:string" />
+    <wsdl:part name="team_name" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addUserToTeamResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getUserRequest">
+    <wsdl:part name="email" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getUserResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getTeamProjectsRequest">
+    <wsdl:part name="team_name" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getTeamProjectsResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getProjectTasksRequest">
+    <wsdl:part name="proj_name" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getProjectTasksResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getListOfTeamsRequest" />
+  <wsdl:message name="getListOfTeamsResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getTeamRequest">
+    <wsdl:part name="team_id" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getTeamResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getTeamMembersRequest">
+    <wsdl:part name="team_id" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getTeamMembersResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addTaskRequest">
+    <wsdl:part name="projid" type="xsd:string" />
+    <wsdl:part name="taskdesc" type="xsd:string" />
+    <wsdl:part name="timereq" type="xsd:string" />
+    <wsdl:part name="taskcreated" type="xsd:string" />
+    <wsdl:part name="taskdue" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addTaskResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addNewProjectRequest">
+    <wsdl:part name="proj_manager_ID" type="xsd:string" />
+    <wsdl:part name="team_id" type="xsd:string" />
+    <wsdl:part name="proj_desc" type="xsd:string" />
+    <wsdl:part name="proj_name" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addNewProjectResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteTaskRequest">
+    <wsdl:part name="taskid" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteTaskResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="joinTeamRequest">
+    <wsdl:part name="userid" type="xsd:string" />
+    <wsdl:part name="teamid" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="joinTeamResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="pmmeWSPortType">
+    <wsdl:operation name="getAllUsers">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:getAllUsersRequest" />
+      <wsdl:output message="tns:getAllUsersResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllTeams">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:getAllTeamsRequest" />
+      <wsdl:output message="tns:getAllTeamsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllProjects">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:getAllProjectsRequest" />
+      <wsdl:output message="tns:getAllProjectsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllTasks">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:getAllTasksRequest" />
+      <wsdl:output message="tns:getAllTasksResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getData">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:getDataRequest" />
+      <wsdl:output message="tns:getDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="loginUser">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:loginUserRequest" />
+      <wsdl:output message="tns:loginUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="verifyUserLogin">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:verifyUserLoginRequest" />
+      <wsdl:output message="tns:verifyUserLoginResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addNewUser">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:addNewUserRequest" />
+      <wsdl:output message="tns:addNewUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="editUser">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:editUserRequest" />
+      <wsdl:output message="tns:editUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="userAddNewTeam">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:userAddNewTeamRequest" />
+      <wsdl:output message="tns:userAddNewTeamResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addUserToTeam">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:addUserToTeamRequest" />
+      <wsdl:output message="tns:addUserToTeamResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getUser">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:getUserRequest" />
+      <wsdl:output message="tns:getUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTeamProjects">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:getTeamProjectsRequest" />
+      <wsdl:output message="tns:getTeamProjectsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getProjectTasks">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:getProjectTasksRequest" />
+      <wsdl:output message="tns:getProjectTasksResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getListOfTeams">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:getListOfTeamsRequest" />
+      <wsdl:output message="tns:getListOfTeamsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTeam">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:getTeamRequest" />
+      <wsdl:output message="tns:getTeamResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTeamMembers">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:getTeamMembersRequest" />
+      <wsdl:output message="tns:getTeamMembersResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addTask">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:addTaskRequest" />
+      <wsdl:output message="tns:addTaskResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addNewProject">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:addNewProjectRequest" />
+      <wsdl:output message="tns:addNewProjectResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteTask">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:deleteTaskRequest" />
+      <wsdl:output message="tns:deleteTaskResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="joinTeam">
+      <documentation>Get Information</documentation>
+      <wsdl:input message="tns:joinTeamRequest" />
+      <wsdl:output message="tns:joinTeamResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="pmmeWSBinding" type="tns:pmmeWSPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="getAllUsers">
+      <soap:operation soapAction="urn:pmmeWS#getAllUsers" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllTeams">
+      <soap:operation soapAction="urn:pmmeWS#getAllTeams" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllProjects">
+      <soap:operation soapAction="urn:pmmeWS#getAllProjects" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllTasks">
+      <soap:operation soapAction="urn:pmmeWS#getAllTasks" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getData">
+      <soap:operation soapAction="urn:pmmeWS#getData" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="loginUser">
+      <soap:operation soapAction="urn:pmmeWS#loginUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verifyUserLogin">
+      <soap:operation soapAction="urn:pmmeWS#verifyUserLogin" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addNewUser">
+      <soap:operation soapAction="urn:pmmeWS#addNewUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="editUser">
+      <soap:operation soapAction="urn:pmmeWS#editUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="userAddNewTeam">
+      <soap:operation soapAction="urn:pmmeWS#userAddNewTeam" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addUserToTeam">
+      <soap:operation soapAction="urn:pmmeWS#addUserToTeam" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUser">
+      <soap:operation soapAction="urn:pmmeWS#getUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTeamProjects">
+      <soap:operation soapAction="urn:pmmeWS#getTeamProjects" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getProjectTasks">
+      <soap:operation soapAction="urn:pmmeWS#getProjectTasks" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getListOfTeams">
+      <soap:operation soapAction="urn:pmmeWS#getListOfTeams" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTeam">
+      <soap:operation soapAction="urn:pmmeWS#getTeam" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTeamMembers">
+      <soap:operation soapAction="urn:pmmeWS#getTeamMembers" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addTask">
+      <soap:operation soapAction="urn:pmmeWS#addTask" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addNewProject">
+      <soap:operation soapAction="urn:pmmeWS#addNewProject" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteTask">
+      <soap:operation soapAction="urn:pmmeWS#deleteTask" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="joinTeam">
+      <soap:operation soapAction="urn:pmmeWS#joinTeam" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:pmmeWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="pmmeWS">
+    <wsdl:port name="pmmeWSPort" binding="tns:pmmeWSBinding">
+      <soap:address location="http://192.168.7.7/pmmeWS.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

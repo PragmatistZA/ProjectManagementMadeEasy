@@ -1,0 +1,26 @@
+﻿@using ProjectManagementMadeEasyApp.Models
+@model IEnumerable<ProjectManagementMadeEasyApp.Models.TeamModel>
+
+@{
+    ViewBag.Title = "FindTeam";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2>List of Existing Teams</h2>
+<div>
+    <dl class="dl-horizontal">
+        @foreach (TeamModel item in Model)
+        {
+            <dt>
+                <p>@Html.DisplayFor(modelItem => item.Team_Name)</p>
+
+            </dt>
+            <dd>
+                <a href="@Url.Action("JoinTeam", "Dashboard", item)" class="btn btn-default btn-sm btn-block" style="width: 10%">Join&raquo;</a>
+            </dd>
+
+        }
+
+    </dl>
+</div>
+

@@ -1,0 +1,41 @@
+﻿@model List<ProjectManagementMadeEasyApp.Models.UserModel>
+
+@{
+    ViewBag.Title = "My Team";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2>My Team</h2>
+
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <p>Team Name:</p>
+        </dt>
+
+        <dd>
+            <p>@ViewBag.Team_Name</p>
+        </dd>
+        <dt>
+            <p>Team Leader:</p>
+        </dt>
+
+        <dd>
+            <p>@ViewBag.Team_Leader</p>
+        </dd>
+        
+        @foreach (var user in Model)
+        {
+            <dt>
+                <p>Team Member:</p>
+            </dt>
+
+            <dd>
+                <p>@user.First_Name @user.Last_Name</p>
+            </dd>
+        }
+    </dl>
+</div>
+

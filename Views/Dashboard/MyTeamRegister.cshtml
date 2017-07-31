@@ -1,0 +1,33 @@
+﻿@model ProjectManagementMadeEasyApp.ViewModels.RegisterTeamViewModel
+@{
+    ViewBag.Title = "Register Team";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2></h2>
+
+<a href="@Url.Action("FindTeam", "Dashboard")" class="btn btn-default btn-sm btn-block" style="width: 20%">Join Existing Team&raquo;</a>
+
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            <p>@Html.LabelFor(model => model.Team_Name, htmlAttributes: new { @class = "control-label col-md-2" })</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Team_Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Team_Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Register" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+

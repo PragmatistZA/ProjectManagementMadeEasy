@@ -1,0 +1,47 @@
+﻿@model ProjectManagementMadeEasyApp.Models.ProjectModel
+
+@{
+    ViewBag.Title = "MyProject";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h2>My Project</h2>
+
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <p>@Html.DisplayNameFor(model => model.Project_Name)</p>
+        </dt>
+
+        <dd>
+            <p>@Html.DisplayFor(model => model.Project_Name)</p>
+        </dd>
+
+        <dt>
+            <p>@Html.DisplayNameFor(model => model.Proj_Desc)</p>
+        </dt>
+
+        <dd>
+            <p>@Html.DisplayFor(model => model.Proj_Desc)</p>
+        </dd>
+
+        @*<dt>
+            <p>@Html.DisplayNameFor(model => model.Proj_Due)</p>
+        </dt>
+
+        <dd>
+            <p>@Html.DisplayFor(model => model.Proj_Due)</p>
+        </dd>*@
+
+        @*<dt>
+            <p>@Html.DisplayNameFor(model => model.Manager_Name)</p>
+        </dt>
+
+        <dd>
+            <p>@Html.DisplayFor(model => model.Manager_Name)</p>
+        </dd>*@
+
+    </dl>
+</div>

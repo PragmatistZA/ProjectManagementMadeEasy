@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+<style>
+    h1 {
+        font-size: 40px;
+        color: black;
+        padding-top: 10px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        color: white;
+        text-shadow: -3px -3px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+    h2 {
+        color: white;
+        text-shadow: -3px -3px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+    p {
+        color: white;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    address {
+        color: white;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+/*
+          img {
+         -webkit-filter: invert(1);
+         filter: invert(1);
+        */
+    </style>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @*Html.ActionLink("PMME", "Index", "Home", new {area = ""}, new {@class = "navbar-brand"}) *@
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("PMME", "Index", "Home")</li>
+                <li>@Html.ActionLink("Dashboard", "Index", "Dashboard")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                
+                @Html.Partial("_LoginPartial")
+
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container body-content">
+    @RenderBody()
+    <hr/>
+    <footer>
+        <p>&copy; @DateTime.Now.Year - Powered By ASP.NET</p>
+    </footer>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
+
+</body>
+
+</html>
+<img src="~/Resources/office_image.jpg" style="position:absolute; background-size: cover; background-repeat: no-repeat; top: 0px; left: 0px; width: 100vw; height: 100vh; z-index: -1;" /> <!--No idea how to get the background to stretch perfectly. Already wasted hours on it. I'm out.-->
